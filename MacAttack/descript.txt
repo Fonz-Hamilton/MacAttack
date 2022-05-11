@@ -1,0 +1,25 @@
+In this difficult challenge, your goal is to answer 50 questions correctly in 3 seconds about Mandatory Access Control (MAC).
+The questions will randomly change every time.
+It is very unlikely that you will be able to do this by hand (in fact, we would be very surprised if you did!.
+The goal of this challenge is to write a program that can interact with this program to supply the correct answers.
+The goal of this challenge is to write a program that can interact with this program to supply the correct answers.
+The best hacker solution is to learn to use the Python pwntools library: https://docs.pwntools.com/en/stable/
+Another approach would be to use the 'expect' family of libraries in your favorite programming language: https://en.wikipedia.org/wiki/Expect#Alternatives
+
+Consider a MAC system with the following levels (from high to low):
+Top Secret (TS)
+Secret (S)
+Confidential (C)
+Unclassified (UC)
+
+Also with the following categories:
+Nuclear (NUC)
+NATO (NATO)
+Advanced Combat Engine (ACE)
+Unidentified Flying Object (UFO)
+
+Next, we'll ask a series of 50 yes or no questions about if a Subject with level X can read or write an Object with level Y
+Get them all right, and get the flag
+
+1. Can a Subject with level TS and categories {ACE} write an Object with level TS and categories {NATO}?
+
